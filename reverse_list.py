@@ -4,11 +4,11 @@
 
 def reverse_list(vals):
     """Def reverses list given."""
-    i = 0
-    j = len(vals)-1
-    while i < j:
-        tmp = vals[i]
-        vals[i] = vals[j]
-        vals[j] = tmp
-        i += 1
-        j -= 1
+    x = 0
+    y = len(vals)-1
+    while x < y:
+        tmp = vals[x]
+        vals[x] = vals[y]
+        vals[y] = tmp
+        x += 1
+        y -= 1
